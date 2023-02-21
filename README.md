@@ -17,8 +17,6 @@ powers (array of strings): An array of the hero's superpowers
 biography (string): A brief biography of the hero
 Here is an example response for Superman:
 
-json
-Copy code
 {
   "id": 1,
   "name": "Superman",
@@ -31,6 +29,7 @@ Copy code
   ],
   "biography": "Superman is a fictional superhero appearing in American comic books published by DC Comics. The character was created by writer Jerry Siegel and artist Joe Shuster, and first appeared in Action Comics #1 on April 18, 1938. Superman is the alter ego of Clark Kent, a journalist working for the Daily Planet in Metropolis."
 }
+
 Rate Limiting
 To prevent abuse, the API is rate limited to 5 requests per minute. If you exceed this limit, you will receive a 429 Too Many Requests response.
 
